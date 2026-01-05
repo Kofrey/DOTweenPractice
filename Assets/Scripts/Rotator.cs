@@ -8,7 +8,6 @@ public class Rotator : MonoBehaviour
     [SerializeField] private int _repeats;
     [SerializeField] private LoopType _loopType;
 
-
     private void Start()
     {
         transform.DORotate(_angle, _duration).SetLoops(_repeats, _loopType);
